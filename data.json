@@ -1,0 +1,34 @@
+{
+  "indexPacks": [
+    {"src": "", "name": "IndexItem"},
+    {"src": "", "name": "IndexItem"},
+    {"src": "", "name": "IndexItem"},
+    {"src": "", "name": "IndexItem"}
+  ],
+  "GoodsItems":[
+    {"src": "", "name": "GoodItem"},
+    {"src": "", "name": "GoodItem"},
+    {"src": "", "name": "GoodItem"},
+    {"src": "", "name": "GoodItem"},
+    {"src": "", "name": "GoodItem"},
+    {"src": "", "name": "GoodItem"},
+    {"src": "", "name": "GoodItem"}
+  ],
+  "PacksItems":[
+    {"src": "", "name": "PacksItem"},
+    {"src": "", "name": "PacksItem"},
+    {"src": "", "name": "PacksItem"},
+    {"src": "", "name": "PacksItem"},
+    {"src": "", "name": "PacksItem"},
+    {"src": "", "name": "PacksItem"},
+    {"src": "", "name": "PacksItem"}
+  ],
+  "details": [
+    {"src": "", "name": "DetailItem"},
+    {"src": "", "name": "DetailItem"},
+    {"src": "", "name": "DetailItem"},
+    {"src": "", "name": "DetailItem"},
+    {"src": "", "name": "DetailItem"},
+    {"src": "", "name": "DetailItem"}
+  ]
+}

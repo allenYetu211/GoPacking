@@ -1,19 +1,23 @@
 <template>
  <div>
-  <span>info
-    <b>22</b>
-  </span>
+  <title-index :theme="theme"></title-index>
  </div>
 </template>
 
 <script>
-</script>
-
-<style lang="scss" scoped>
-span {
-  font-size: 20px;
-  b {
-    font-size: 50px;
+import TitleIndex from 'com~/title'
+export default {
+  components: {
+    TitleIndex
+  },
+  data () {
+    return {
+      theme: 'index'
+    }
   }
 }
+</script>
+
+<style lang="scss" scpoed>
+
 </style>

@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import '@/Public/css/resize.css'
+import '@/Public/js/dynamicREM'
 
 Vue.config.productionTip = false
 

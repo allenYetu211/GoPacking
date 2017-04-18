@@ -23,6 +23,47 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+
+//使用 exporess 模拟数据响应
+var appData = require('../data.json')
+var index = appData.indexPacks
+var goods = appData.GoodsItems
+var packs = appData.PacksItems
+var details = appData.details
+
+// 编写路由
+var apiRoutes = express.Router()
+
+apiRoutes.get('/index', function(req, res) {
+  res.json({
+    errno: 0,
+    data: index 
+  })
+})
+
+apiRoutes.get('/goods', function(req, res) {
+  res.json({
+    errno: 0,
+    data: goods 
+  })
+})
+
+apiRoutes.get('/packs', function(req, res) {
+  res.json({
+    errno: 0,
+    data: packs 
+  })
+})
+
+apiRoutes.get('/details', function(req, res) {
+  res.json({
+    errno: 0,
+    data: details 
+  })
+})
+
+
+
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
