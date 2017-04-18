@@ -62,8 +62,8 @@ apiRoutes.get('/details', function(req, res) {
   })
 })
 
-
-
+// 使用 express use  
+app.use('/api', apiRoutes)
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
