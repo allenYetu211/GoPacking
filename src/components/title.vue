@@ -5,13 +5,15 @@
  
       <div class="themes" v-if="theme === 'index'">
           <div class="items">
+            <router-link :to = "{name:'goodsItems'}"  @click="getRouterName">
             <i class="i-icon">
               <img src="../assets/muen@3x.png" alt="">
             </i>
+            </router-link>
           </div>
 
           <div class="translateCount">
-           {{newCount}} / {{allCount}}
+           <!--{{newCount}} / {{allCount}}-->
           </div>
 
           <div class="packs">
@@ -27,7 +29,12 @@
 
 <script>
 export default {
-  props: ['theme']
+  props: ['theme'],
+  methods: {
+    getRouterName () {
+      console.log(this.$route.name)
+    }
+  }
 }
 </script>
 

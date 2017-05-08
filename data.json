@@ -1,34 +1,34 @@
 {
   "indexPacks": [
-    {"src": "assets/goods@2x.png", "name": "IndexItem"},
-    {"src": "assets/goods@2x.png", "name": "IndexItem"},
-    {"src": "assets/goods@2x.png", "name": "IndexItem"},
-    {"src": "assets/goods@2x.png", "name": "IndexItem"}
+    {"src": "/static/goods@2x.png", "name": "IndexItem"},
+    {"src": "/static/goods@2x.png", "name": "IndexItem"},
+    {"src": "/static/goods@2x.png", "name": "IndexItem"},
+    {"src": "/static/goods@2x.png", "name": "IndexItem"}
   ],
   "GoodsItems":[
-    {"src": "assets/goods@2x.png", "name": "GoodItem"},
-    {"src": "assets/goods@2x.png", "name": "GoodItem"},
-    {"src": "assets/goods@2x.png", "name": "GoodItem"},
-    {"src": "assets/goods@2x.png", "name": "GoodItem"},
-    {"src": "assets/goods@2x.png", "name": "GoodItem"},
-    {"src": "assets/goods@2x.png", "name": "GoodItem"},
-    {"src": "assets/goods@2x.png", "name": "GoodItem"}
+    {"src": "/static/goods@2x.png", "name": "GoodItem"},
+    {"src": "/static/goods@2x.png", "name": "GoodItem"},
+    {"src": "/static/goods@2x.png", "name": "GoodItem"},
+    {"src": "/static/goods@2x.png", "name": "GoodItem"},
+    {"src": "/static/goods@2x.png", "name": "GoodItem"},
+    {"src": "/static/goods@2x.png", "name": "GoodItem"},
+    {"src": "/static/goods@2x.png", "name": "GoodItem"}
   ],
   "PacksItems":[
-    {"src": "assets/goods@2x.png", "name": "PacksItem"},
-    {"src": "assets/goods@2x.png", "name": "PacksItem"},
-    {"src": "assets/goods@2x.png", "name": "PacksItem"},
-    {"src": "assets/goods@2x.png", "name": "PacksItem"},
-    {"src": "assets/goods@2x.png", "name": "PacksItem"},
-    {"src": "assets/goods@2x.png", "name": "PacksItem"},
-    {"src": "assets/goods@2x.png", "name": "PacksItem"}
+    {"src": "/static/goods@2x.png", "name": "PacksItem"},
+    {"src": "/static/goods@2x.png", "name": "PacksItem"},
+    {"src": "/static/goods@2x.png", "name": "PacksItem"},
+    {"src": "/static/goods@2x.png", "name": "PacksItem"},
+    {"src": "/static/goods@2x.png", "name": "PacksItem"},
+    {"src": "/static/goods@2x.png", "name": "PacksItem"},
+    {"src": "/static/goods@2x.png", "name": "PacksItem"}
   ],
   "details": [
-    {"src": "assets/goods@2x.png", "name": "DetailItem"},
-    {"src": "assets/goods@2x.png", "name": "DetailItem"},
-    {"src": "assets/goods@2x.png", "name": "DetailItem"},
-    {"src": "assets/goods@2x.png", "name": "DetailItem"},
-    {"src": "assets/goods@2x.png", "name": "DetailItem"},
-    {"src": "assets/goods@2x.png", "name": "DetailItem"}
+    {"src": "/static/goods@2x.png", "name": "DetailItem"},
+    {"src": "/static/goods@2x.png", "name": "DetailItem"},
+    {"src": "/static/goods@2x.png", "name": "DetailItem"},
+    {"src": "/static/goods@2x.png", "name": "DetailItem"},
+    {"src": "/static/goods@2x.png", "name": "DetailItem"},
+    {"src": "/static/goods@2x.png", "name": "DetailItem"}
   ]
 }
